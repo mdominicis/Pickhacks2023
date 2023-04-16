@@ -12,6 +12,7 @@ def get_field_values(fieldname):
 def get_car_details(car_makes, car_models, car_years, car_emissions, index):
 
     car_details = []
+
     car_details.append(car_makes[index])
     car_details.append(car_models[index])
     car_details.append(car_years[index])
