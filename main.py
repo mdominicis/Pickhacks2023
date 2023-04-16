@@ -14,7 +14,7 @@ def process_input():
     if request.method == 'POST':
         origin = request.form['origin']
         destination = request.form['destination']
-        api_key = 'AIzaSyDc6_OK5NMUMTiK3r-WsOkTzuImskrCSRc'
+        api_key = 'Put API Key Here'
         distance = distancegetter.get_distance(origin, destination, api_key)
         car_makes = csv_parser.get_field_values('make')
         car_models = csv_parser.get_field_values('model')
